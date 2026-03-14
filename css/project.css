@@ -647,3 +647,8 @@
   }
 }
 
+@media (max-width: 980px){
+  .project--lmsc section[aria-label="Funzionamento e Target"] .pTwoCol{
+    gap: 55px;
+  }
+}

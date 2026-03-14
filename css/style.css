@@ -1668,3 +1668,46 @@ body.is-home main.content{
     font-size: 12px;
   }
 }
+@media (min-width: 981px){
+  .is-about .uxCtaRow,
+  .is-cv .uxCtaRow{
+    justify-content: flex-start !important;
+    align-items: center;
+  }
+
+  .is-about .uxCtaRow .btn,
+  .is-cv .uxCtaRow .btn{
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+@media (min-width: 981px){
+  .is-about .uxSection--chi .uxGrid2{
+    display: grid;
+    grid-template-columns: 1fr 2fr !important;
+    gap: clamp(20px, 5vw, 72px);
+    align-items: start;
+  }
+
+  .is-about .uxSection--split .uxGrid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr !important;
+    gap: clamp(20px, 5vw, 72px);
+    align-items: start;
+  }
+
+  .is-about .uxSection--oltre .uxGrid2{
+    display: grid;
+    grid-template-columns: 1fr 2fr !important;
+    gap: clamp(20px, 5vw, 72px);
+    align-items: start;
+  }
+
+  .is-about .uxSection--chi .uxGrid2 > *,
+  .is-about .uxSection--split .uxGrid2 > *,
+  .is-about .uxSection--oltre .uxGrid2 > *{
+    grid-column: auto;
+    width: auto;
+    max-width: none;
+  }
+}
