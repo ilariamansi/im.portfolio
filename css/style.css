@@ -477,11 +477,11 @@ body.is-home main.content{
   margin: 8px 0 0;
   max-width: 58ch;
   font-family: var(--font-sans);
-  font-size: var(--lead);
-  font-weight: 600;
+  font-size: 32px;
+  font-weight: 400;
   line-height: 1;
   color: rgba(243,239,233,1);
-  letter-spacing: .03em;
+  letter-spacing: .10em;
 }
 
 .heroConcept__statement{
@@ -494,6 +494,10 @@ body.is-home main.content{
   letter-spacing: .18em;
   text-transform: uppercase;
   color: rgb(243,239,233);
+}
+
+.heroConcept__cta{
+margin:30px;
 }
 
 .heroConcept__panelWrap{
@@ -585,7 +589,7 @@ body.is-home main.content{
     letter-spacing: .12em;
     line-height: 1.7;
   }
-
+ 
   .heroConcept__panelWrap{
     transform: translateY(10vh);
     padding-bottom: 70px;
@@ -634,6 +638,7 @@ body.is-home main.content{
     max-width: 38ch;
   }
 
+  
   .heroConcept__panelWrap{
     top: 100vh;
     transform: translateY(7vh);
@@ -1474,7 +1479,7 @@ body.is-home main.content{
 }
 
 .is-about .uxSection--chi .chiBlock__quote{
-  max-width: 42ch;
+  max-width: 30ch;
   font-size: clamp(28px, 2.8vw, 36px);
   line-height: 1.45;
   margin-top: 80px;
@@ -1629,7 +1634,7 @@ body.is-home main.content{
 
   
 }
-/* CONTACT shared block */
+
 .is-contact .contactInfo{
   margin-top: 92px;
   padding: 18px 18px 22px;
